@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dress Up Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="game-area">
+            <div id="character">
+                <img src="assets/rect.png" alt="Rectangle Frame" class="rectangle">
+                <img id="base-char" src="assets/char.png" alt="Character">
+                <img id="selected-shirt" src="assets/shirt1.png" alt="Shirt">
+                <img id="selected-pant" src="assets/pant1.png" alt="Pants">
+                <img id="selected-hat" src="assets/hat.png" alt="Hat">
+
+                <!-- Arrows for selection -->
+                <img class="arrow left_arrow" src="assets/left_arrow.png" alt="Left Arrow">
+                <img class="arrow right_arrow" src="assets/right_arrow.png" alt="Right Arrow">
+            </div>
+        </div>
+
+        <div class="controls">
+            <div class="option-container">
+                <p>Select Shirt:</p>
+                <button id="shirt1">Shirt 1</button>
+                <button id="shirt2">Shirt 2</button>
+                <button id="shirt3">Shirt 3</button>
+            </div>
+            <div class="option-container">
+                <p>Select Pants:</p>
+                <button id="pant1">Pant 1</button>
+                <button id="pant2">Pant 2</button>
+                <button id="pant3">Pant 3</button>
+            </div>
+            <div class="option-container">
+                <p>Select Hat:</p>
+                <button id="bow1">Bow 1</button>
+                <button id="bow2">Bow 2</button>
+                <button id="hat">Hat</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
